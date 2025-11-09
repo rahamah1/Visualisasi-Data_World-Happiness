@@ -86,10 +86,10 @@ A **line chart** complements this by revealing **temporal changes** per country.
 | Name | Role | Responsibilities |
 |------|------|------------------|
 | **Haifan Rahmah** | 🧩 Team Leader & Developer | Data cleaning, D3 integration, animation synchronization & Slider|
-| **Nur Fitriana Shalihah** | 🎨 UI/UX Designer | Visual design, layout |
-| **Berliana Mahadewi** | ⚙️ Interaction Developer | Slider, zoom/pan, and map interactivity |
+| **Nur Fitriana Shalihah** | 🎨 UI/UX Designer | Visual design, layout & slider |
+| **Berliana Mahadewi** | ⚙️ Interaction Developer | Slider, zoom/pan, video editing |
 | **Siti Rhofiah** | 📊 Data Analyst & Chart Developer | trend analysis |
-| **Mirza Helga Prabatanadi** | 🗒️ Documentation & Presentation | Write-up, README, video narration, peer review |
+| **Mirza Helga Prabatanadi** | 🗒️ Documentation & Presentation | map interactivity, video narration, peer review |
 
 ---
 
