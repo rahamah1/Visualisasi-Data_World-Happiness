@@ -85,10 +85,10 @@ A **line chart** complements this by revealing **temporal changes** per country.
 
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| **Haifan Rahmah** | 🧩 Team Leader & Developer | Data cleaning, D3 integration, animation synchronization |
-| **Nur Fitriana Shalihah** | 🎨 UI/UX Designer | Visual design, layout, color scheme, and tooltips |
+| **Haifan Rahmah** | 🧩 Team Leader & Developer | Data cleaning, D3 integration, animation synchronization & Slider|
+| **Nur Fitriana Shalihah** | 🎨 UI/UX Designer | Visual design, layout |
 | **Berliana Mahadewi** | ⚙️ Interaction Developer | Slider, zoom/pan, and map interactivity |
-| **Siti Rhofiah** | 📊 Data Analyst & Chart Developer | Line chart implementation, trend analysis |
+| **Siti Rhofiah** | 📊 Data Analyst & Chart Developer | trend analysis |
 | **Mirza Helga Prabatanadi** | 🗒️ Documentation & Presentation | Write-up, README, video narration, peer review |
 
 ---
@@ -122,16 +122,12 @@ A **line chart** complements this by revealing **temporal changes** per country.
 | Section | Duration | Presenter | Content |
 |----------|-----------|------------|----------|
 | Introduction | 1 min | Haifan | Dataset, project goals, and importance of happiness data |
-| Demonstration | 2 min | Member 2 & 3 | Show interactive features (map, slider, animation) |
-| Design Decisions | 1.5 min | Member 4 | Visual encoding rationale and findings |
-| Reflection & Questions | 0.5 min | Member 5 | Challenges faced and feedback questions |
+| Deskripsi & tujuan | 1 min | Nur Fitriana | Deskripsi Dataset & tujuan |
+| Eksplorasi  | 1 min | Berliana | Eksplorasi |
+| Analisis & Hubungan Antar Viariabel | 1 min | Mirza Helga | Analisis & Hubungan Antar Viariabel |
+| Visualiasai & Conclusion  | 1 min | Member 5 |Visualiasai & Conclusion |
 
-**Peer Critique Questions:**
-1. Are the map interactions and animations intuitive?
-2. Does the visualization effectively communicate changes over time?
-3. Is the tooltip information clear and helpful?
 
----
 
 ## 📚 References & Credits
 
