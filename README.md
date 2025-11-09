@@ -125,7 +125,7 @@ A **line chart** complements this by revealing **temporal changes** per country.
 | Deskripsi & tujuan | 1 min | Nur Fitriana | Deskripsi Dataset & tujuan |
 | Eksplorasi  | 1 min | Berliana | Eksplorasi |
 | Analisis & Hubungan Antar Viariabel | 1 min | Mirza Helga | Analisis & Hubungan Antar Viariabel |
-| Visualiasai & Conclusion  | 1 min | Member 5 |Visualiasai & Conclusion |
+| Visualiasai & Conclusion  | 1 min | Siti Rhofiah |Visualiasai & Conclusion |
 
 
 
