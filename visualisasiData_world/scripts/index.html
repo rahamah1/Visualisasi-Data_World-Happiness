@@ -252,7 +252,7 @@
       // ---------------- CONFIG ----------------
       const config = {
         // IMPORTANT: index.html berada di script/, CSV ada di data/
-        dataPath: "../data/world_happiness.csv",
+        dataPath: "./data/world_happiness.csv",
         col: {
           country: "Country",
           year: "Year",
@@ -970,9 +970,10 @@
             .append("div")
             .style("color", "tomato")
             .text(
-              "Failed to load data — check data path (../data/world_happiness.csv) and CORS."
+              "Failed to load data — check data path (./data/world_happiness.csv) and CORS."
             );
         });
     </script>
   </body>
 </html>
+
