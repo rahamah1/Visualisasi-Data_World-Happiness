@@ -1,6 +1,6 @@
 // ==================== KONFIGURASI ====================
 const config = {
-  dataPath: "../data/world_happiness.csv",
+  dataPath: "./data/world_happiness.csv",
   defaultYear: 2019,
   mapId: "map",
   scatterId: "#scatter",
@@ -389,3 +389,4 @@ function showCountryInfo(d) {
   `;
   $info.html(html);
 }
+
