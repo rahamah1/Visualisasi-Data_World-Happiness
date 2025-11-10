@@ -1,27 +1,27 @@
 # Visualisasi-Data_World-Happiness
 # 🌍 World Happiness Interactive Visualization
 
-An interactive and animated data visualization that explores global happiness levels across countries and over time, based on the **World Happiness Report** dataset from the United Nations Sustainable Development Solutions Network (UNSDSN).
+Sebuah visualisasi data interaktif dan animatif yang mengeksplorasi tingkat kebahagiaan global di berbagai negara dan sepanjang waktu, berdasarkan dataset *World Happiness Report* dari *United Nations Sustainable Development Solutions Network (UNSDSN)*.
 
 ---
 
 ## 🧠 Project Overview
 
-This visualization enables users to **explore global happiness trends** and understand how economic, social, and health factors contribute to overall well-being in different countries from year to year.
+Visualisasi ini memungkinkan pengguna untuk menjelajahi tren kebahagiaan global dan memahami bagaimana faktor ekonomi, sosial, dan kesehatan berkontribusi terhadap kesejahteraan di berbagai negara dari tahun ke tahun.
 
-Using interactive and animated visual techniques, users can:
-- Compare happiness scores between countries on an **interactive choropleth map**
-- Observe trends over time through an **animated line chart**
-- Explore details for each country via **hover tooltips and click events**
-- Navigate across years using a **slider with smooth transitions**
+Dengan teknik visual interaktif dan animatif, pengguna dapat:
+- Membandingkan skor kebahagiaan antarnegara melalui peta koroplet interaktif
+- Mengamati tren dari waktu ke waktu melalui grafik garis animatif
+- Menjelajahi detail tiap negara dengan tooltip saat hover dan interaksi klik
+- Berpindah antar tahun menggunakan slider dengan transisi yang halus
 
 ---
 
 ## 🎯 Goals
 
-- Help users understand **global disparities in happiness**
-- Visualize **temporal and spatial patterns** in happiness data
-- Encourage exploration of how **factors like GDP, life expectancy, and social support** affect happiness
+* Membantu pengguna memahami **ketimpangan kebahagiaan global**
+* Memvisualisasikan **pola temporal dan spasial** dalam data kebahagiaan
+* Mendorong eksplorasi tentang bagaimana **faktor seperti PDB, harapan hidup, dan dukungan sosial** memengaruhi tingkat kebahagiaan
 
 ---
 
@@ -58,17 +58,19 @@ Using interactive and animated visual techniques, users can:
 
 ## 🧠 Design Rationale
 
-We chose a **choropleth map** because geographic distribution provides a natural, intuitive understanding of global patterns.  
-A **line chart** complements this by revealing **temporal changes** per country.
+Kami memilih **peta koroplet** karena distribusi geografis memberikan pemahaman yang alami dan intuitif terhadap pola global.
+**Grafik garis** melengkapi peta tersebut dengan menampilkan **perubahan temporal** di setiap negara.
 
-**Design Choices:**
-- **Color Scale:** Sequential from red (low) → yellow (medium) → blue (high) for emotional intuitiveness  
-- **Tooltips:** Support *details-on-demand* without visual clutter  
-- **Slider & Animation:** Reinforce understanding of changes over time  
+**Pilihan Desain:**
 
-**Alternatives Considered:**
-- Scatter plot (GDP vs. Happiness) — informative but less spatially meaningful  
-- Bar chart comparison — less engaging for temporal exploration  
+* **Skala Warna:** Berurutan dari merah (rendah) → kuning (sedang) → biru (tinggi) untuk memberikan kesan emosional yang intuitif
+* **Tooltip:** Mendukung *details-on-demand* tanpa menimbulkan kekacauan visual
+* **Slider & Animasi:** Memperkuat pemahaman terhadap perubahan dari waktu ke waktu
+
+**Alternatif yang Dipertimbangkan:**
+
+* Scatter plot (PDB vs. Kebahagiaan) — informatif, tetapi kurang bermakna secara spasial
+* Diagram batang perbandingan — kurang menarik untuk eksplorasi temporal
 
 ---
 
@@ -88,8 +90,8 @@ A **line chart** complements this by revealing **temporal changes** per country.
 | **Haifan Rahmah** | 🧩 Team Leader & Developer | Data cleaning, D3 integration, animation synchronization & Slider|
 | **Nur Fitriana Shalihah** | 🎨 UI/UX Designer | Visual design, layout & slider |
 | **Berliana Mahadewi** | ⚙️ Interaction Developer | Slider, zoom/pan, video editing |
-| **Siti Rhofiah** | 📊 Data Analyst & Chart Developer | trend analysis |
-| **Mirza Helga Prabatanadi** | 🗒️ Documentation & Presentation | map interactivity, video narration, peer review |
+| **Siti Rhofiah** | 📊 Data Analyst & Presentation | trend analysis |
+| **Mirza Helga Prabatanadi** | 🗒️ Documentation & Developer | map interactivity, video narration, peer review |
 
 ---
 
