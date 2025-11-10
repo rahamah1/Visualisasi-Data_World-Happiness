@@ -24,14 +24,12 @@ Tipe Variabel & Perannya:
 
 # Hubungan Antar Variabel
 • **Korelasi Positif Kuat**: Scatter plot menunjukkan hubungan positif yang signifikan antara *GDP per capita (gdp)* dan *Skor Kebahagiaan (score)*.
-Berikut versi **poin-poin rapi**:
 • **Korelasi Tidak Sempurna**: Hubungan gdp–score tidak membentuk garis lurus; masih terdapat penyebaran data yang lebar.
 • **Varians & Outlier**: Banyak titik yang menyimpang dari pola umum, menunjukkan adanya faktor lain selain kekayaan.
 • **Pengecualian Menarik**:
 – Negara dengan PDB tinggi tetapi skor kebahagiaan hanya “sedang”.
 – Negara dengan PDB sedang namun memiliki skor kebahagiaan “sangat tinggi”.
 Berikut versi **poin-poin ringkas**:
-
 • **PDB Bukan Satu-satunya Faktor**: Variabel lain dalam *world_happiness.csv* turut memengaruhi skor kebahagiaan.
 • **Harapan Hidup Sehat (life_expectancy)**: Memiliki korelasi positif yang kuat—semakin tinggi kesehatan populasi, semakin tinggi tingkat kebahagiaan.
 • **Persepsi Korupsi (corruption)**: Menunjukkan korelasi negatif yang jelas—semakin rendah kepercayaan pada institusi, semakin rendah skor kebahagiaan.
