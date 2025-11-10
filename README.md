@@ -3,6 +3,41 @@
 
 Sebuah visualisasi data interaktif dan animatif yang mengeksplorasi tingkat kebahagiaan global di berbagai negara dan sepanjang waktu, berdasarkan dataset *World Happiness Report* dari *United Nations Sustainable Development Solutions Network (UNSDSN)*.
 
+# Tujuan
+
+1. **Pemetaan Geografis Kebahagiaan** – Memahami bagaimana tingkat kebahagiaan berbeda di berbagai wilayah/negara.
+2. **Analisis Korelasi GDP & Kebahagiaan** – Menilai hubungan antara kekayaan suatu negara dan skor kebahagiaannya.
+3. **Analisis Tren Waktu** – Mengidentifikasi perubahan skor kebahagiaan dari tahun ke tahun.
+
+# Eksplorasi Data
+Tipe Variabel & Perannya:
+• **Kategorikal (Nominal)**: *country*, *region* — digunakan untuk filtering, grouping, dan pemetaan ke geografi.
+• **Temporal (Ordinal)**: *year* — digunakan sebagai penggerak utama animasi dan slider waktu.
+• **Numerik (Continuous)**: *score*, *gdp*, *life_expectancy*, *corruption* — digunakan untuk sumbu, skala warna, dan nilai metrik yang diukur.
+
+# Kualitas & Distribusi Data (Poin Kritis):
+• **Pembersihan Data**: Ditemukan beberapa nilai *region* yang hilang (misalnya Tunisia). Nilai tersebut perlu diisi ulang secara manual sesuai daftar resmi WHR agar fitur filter wilayah berfungsi dengan benar.
+
+• **Distribusi Score**: Variabel *score* berkisar dari sekitar **2.5** (contoh: Afghanistan 2019) hingga **7.8** (contoh: Finlandia 2019), dengan nilai rata-rata sekitar **5.4**.
+
+• **Distribusi Year & Region**: Dataset memiliki **5 tahun unik** (2015–2019) dan **10 region unik**, yang menjadi dasar analisis temporal dan geografis.
+
+# Hubungan Antar Variabel
+• **Korelasi Positif Kuat**: Scatter plot menunjukkan hubungan positif yang signifikan antara *GDP per capita (gdp)* dan *Skor Kebahagiaan (score)*.
+Berikut versi **poin-poin rapi**:
+• **Korelasi Tidak Sempurna**: Hubungan gdp–score tidak membentuk garis lurus; masih terdapat penyebaran data yang lebar.
+• **Varians & Outlier**: Banyak titik yang menyimpang dari pola umum, menunjukkan adanya faktor lain selain kekayaan.
+• **Pengecualian Menarik**:
+– Negara dengan PDB tinggi tetapi skor kebahagiaan hanya “sedang”.
+– Negara dengan PDB sedang namun memiliki skor kebahagiaan “sangat tinggi”.
+Berikut versi **poin-poin ringkas**:
+
+• **PDB Bukan Satu-satunya Faktor**: Variabel lain dalam *world_happiness.csv* turut memengaruhi skor kebahagiaan.
+• **Harapan Hidup Sehat (life_expectancy)**: Memiliki korelasi positif yang kuat—semakin tinggi kesehatan populasi, semakin tinggi tingkat kebahagiaan.
+• **Persepsi Korupsi (corruption)**: Menunjukkan korelasi negatif yang jelas—semakin rendah kepercayaan pada institusi, semakin rendah skor kebahagiaan.
+
+
+
 ---
 
 ## 🧠 Project Overview
